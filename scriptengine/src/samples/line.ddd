@@ -1,0 +1,12 @@
+#Line Example
+
+po=Point(0,0,0)
+px=Point(1,0,0)
+py=Point(0,1,0)
+pz=Point(0,0,1)
+linex=Line(po,px)
+liney=Line(po,py)
+linez=Line(po,pz)
+Display.add(linex)
+Display.add(liney)
+Display.add(linez)

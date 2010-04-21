@@ -1,0 +1,13 @@
+#Arc Example
+
+po=Point(0,0,0)
+px=Point(1,0,0)
+py=Point(0,1,0)
+pz=Point(0,0,1)
+#Arc specified by startPoint, endPoint, and intialVector
+arcx=Arc(po,px,py)
+arcy=Arc(po,py,pz)
+arcz=Arc(po,pz,px)
+Display.add(arcx)
+Display.add(arcy)
+Display.add(arcz)

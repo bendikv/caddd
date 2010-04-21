@@ -1,0 +1,8 @@
+#QBert Board
+
+for i in range(7):
+    for j in range(7):
+        if j>i:
+            b = BOX(POINT(i,j,0),POINT(1+i,1+j,j-i))
+            DISPLAY(b)
+            time.sleep(.2)
